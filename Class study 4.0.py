@@ -3,21 +3,21 @@ class human_Infs:
     
     # Defining informations of the object (human being's mind) using __init__ and then self. 
 
-    def __init__(self, name, age, girls_Preference):
+    def __init__(self, name, age, cars_Preference):
         self.name = name
         self.age = age
-        self.girls_Preference = girls_Preference
+        self.cars_Preference = cars_Preference
 
     # Defining the function to run the code using the variables and strings without having to rewrite in every sentence
 
     def my_func(self):
-        print("His name is " + self.name + ",", "he is " + self.age + " years old", "and he loves " +self.girls_Preference)
+        print("His name is " + self.name + ",", "he is " + self.age + " years old", "and he loves " +self.cars_Preference)
 
 # Filling the objects with the informations
 
-mind1 = human_Infs("Mateus", "28", "Korean")
-mind2 = human_Infs("Joacas", "23", "Japanese/Kazakhs")
-mind3 = human_Infs("Gorilla Monster", "Undefinded", "Everything alive")
+mind1 = human_Infs("Mateus", "28", "Tesla")
+mind2 = human_Infs("Joacas", "23", "Volks")
+mind3 = human_Infs("Gorilla Monster", "Undefinded", "Volwo")
 
 # Calling the variables and the functions
 
